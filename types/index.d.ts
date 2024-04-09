@@ -35,6 +35,11 @@ interface HCaptchaProps {
   custom?: boolean;
   secureApi?: boolean;
   scriptSource?: string;
+  endpoint?: string;
+  apihost?: string;
+  assethost?: string;
+  imghost?: string;
+  reportapi?: string;
 }
 
 interface ExecuteResponse {
